@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; --- Configuración para Windows 11 Pro 25H2 ---
+; Apunta a carpetas del sistema de archivos
+
+[HKEY_CLASSES_ROOT\Directory\shell\MoverVideosFFMPEG]
+@="Mover Ficheros de Subcarpetas"
+"Icon"="D:\\Developer\\ffmpeg\\movervideos.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\MoverVideosFFMPEG\command]
+@="\"D:\\Developer\\ffmpeg\\movervideos.bat\" \"%1\""
